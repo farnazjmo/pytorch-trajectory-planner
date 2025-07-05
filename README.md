@@ -26,5 +26,19 @@ To train a model:
 python train.py --model_name mlp_planner --num_epoch 40 --batch_size 64
 ```
 
+## 🎥 Model Demos
+###  MLP Planner
+
+![MLP Demo](videos/mlp_planner_lighthouse.gif)
+
+### CNN Planner
+
+![CNN Demo](videos/cnn_planner_lighthouse.gif)
+
+### Transformer Planner
+
+![Transformer Demo](videos/transformer_planner_lighthouse.gif)
+
+
 ## 📄 Disclaimer
 *This project shares only original code written by the author. No university-provided materials, datasets, or assignment instructions are included.*
