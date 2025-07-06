@@ -21,7 +21,26 @@ This project implements an MLP (Multilayer Perceptron) to predict future vehicle
 
 ## 🚀 Usage
 
-To train a model:
+### ⚙️ Training the Model
+
+To train the CNN-based planner:
+
+```python
+from train import train
+
+train(
+    model_name="cnn_planner",
+    transform_pipeline="default",
+    num_workers=4,
+    lr=1e-2,
+    batch_size=256,
+    num_epoch=50,
+)
+```
+
+### 🖥️ CLI Training
+
+You can also run training directly from the terminal:
 ```bash
 python train.py --model_name mlp_planner --num_epoch 40 --batch_size 64
 ```
