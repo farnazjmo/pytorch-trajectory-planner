@@ -1,6 +1,6 @@
-# MLP-Based Vehicle Trajectory Prediction
+# Trajectory Planning with PyTorch
 
-This project implements an MLP (Multilayer Perceptron) to predict future vehicle waypoints in a simplified driving simulation environment. It demonstrates a complete machine learning pipeline including model design, training, evaluation, and logging.
+This project implements three neural network models. a Multilayer Perceptron (MLP), a Convolutional Neural Network (CNN), and a Transformer, to predict future vehicle waypoints in a simplified driving simulation environment. It showcases a complete deep learning pipeline, including model architecture design, training, evaluation, and logging with TensorBoard.
 
 ## 🔧 Features
 
